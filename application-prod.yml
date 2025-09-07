@@ -1,0 +1,9 @@
+#eureka client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+# Context path
+spring:
+  servlet:
+    context-path: /micro
